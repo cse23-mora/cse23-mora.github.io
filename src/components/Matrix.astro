@@ -68,7 +68,14 @@ const { fontSize = 16 } = Astro.props;
 
             // Vary the opacity based on position
             const dropPosition = drops[i] * fontSize;
-            const opacity = Math.random() * 0.5 + 0.1; // Low opacity between 0.1 and 0.6
+            
+            var opacity = 1;
+            if(prefersDark){
+                opacity = Math.random() * 0.5 + 0.5; // Low opacity between 0.1 and 0.6
+            }
+            else{
+                opacity = Math.random() * 0.3 + 0.1; // Low opacity between 0.1 and 0.6
+            }
 
             // Set color with calculated opacity
             ctx.fillStyle = getIndigoColor(opacity);
