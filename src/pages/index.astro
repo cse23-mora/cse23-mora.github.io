@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Matrix from "../components/Matrix.astro";
 ---
 
 <!doctype html>
@@ -11,6 +12,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <body class="dark:bg-neutral-900 antialiased">
+    <Matrix/>
     <Header />
     <main class="min-h-screen">
       <!-- Hero -->
@@ -57,6 +59,50 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
             />
           </div>
 
+          <section class="py-10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">Our Projects</h2>
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                
+                <!-- Card 1 -->
+                <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-auto">
+                  <div class="flex flex-col items-center pb-10 pt-6">
+                    <img class="w-32 h-32 mb-3 rounded-full shadow-lg" src="/images/projects/kuppihub.png" alt="Kuppi hub image"/>
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Kuppi Hub</h5>
+                    <div class="flex mt-4 md:mt-6">
+                      <a href="https://kuppihub.cse23.org/" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Open</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Card 2 -->
+                <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-auto">
+                  <div class="flex flex-col items-center pb-10 pt-6">
+                    <img class="w-32 h-32 mb-3 rounded-full shadow-lg" src="/images/projects/techtide.png" alt="Bonnie image"/>
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Tech Tide</h5>
+                    <div class="flex mt-4 md:mt-6">
+                      <a href="https://sites.google.com/cse.mrt.ac.lk/techtideweeklybycse23/home" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Open</a>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Card 3 -->
+                <!-- <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-auto">
+                  <div class="flex flex-col items-center pb-10 pt-6">
+                    <img class="w-32 h-32 mb-3 rounded-full shadow-lg" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
+                    <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Kuppi Hub</h5>
+                    <div class="flex mt-4 md:mt-6">
+                      <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Open</a>
+                    </div>
+                  </div>
+                </div> -->
+          
+              </div>
+            </div>
+          </section>
+          
+
           <!-- Grid -->
           <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
             <div class="lg:col-span-1">
@@ -69,6 +115,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
                 We are committed to making a positive impact in our community
                 and beyond. Our initiatives include:
               </p>
+              
             </div>
             <!-- End Col -->
 
