@@ -1,0 +1,88 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../consts";
+---
+
+<header
+  class="z-40 sticky top-0 left-0 flex flex-wrap sm:justify-start sm:flex-nowrap w-full backdrop-blur-md bg-white/60 text-sm py-3 dark:bg-neutral-800/60 shadow-md"
+>
+  <nav
+    class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+  >
+    <div class="flex items-center justify-between">
+      <a
+        class="flex-none text-xl font-semibold dark:text-white focus:outline-none focus:opacity-80"
+        href="/"
+        aria-label="Brand"
+      >
+        <span
+          class="inline-flex items-center gap-x-2 text-xl font-semibold dark:text-white"
+        >
+          <h1
+            class="text-2xl font-extrabold leading-none tracking-tightmd:text-3xl lg:text-4xl"
+          >
+          <mark
+              class="px-2 py-1 text-white bg-gradient-to-r from-indigo-500 to-pink-500 text-transparent rounded-lg"
+              > CSE 23</mark
+            >
+          </h1>
+        </span>
+      </a>
+      <div class="sm:hidden">
+        <button
+          type="button"
+          class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10"
+          id="hs-navbar-example-collapse"
+          aria-expanded="false"
+          aria-controls="hs-navbar-example"
+          aria-label="Toggle navigation"
+          data-hs-collapse="#hs-navbar-example"
+        >
+          <svg
+            class="hs-collapse-open:hidden shrink-0 size-4"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            ><line x1="3" x2="21" y1="6" y2="6"></line><line
+              x1="3"
+              x2="21"
+              y1="12"
+              y2="12"></line><line x1="3" x2="21" y1="18" y2="18"></line></svg
+          >
+          <svg
+            class="hs-collapse-open:block hidden shrink-0 size-4"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            ><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg
+          >
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      </div>
+    </div>
+    <div
+      id="hs-navbar-example"
+      class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block"
+      aria-labelledby="hs-navbar-example-collapse"
+    >
+      <div
+        class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5"
+      >
+        <HeaderLink href="/">Home</HeaderLink>
+        <HeaderLink href="/event">Events</HeaderLink>
+      </div>
+    </div>
+  </nav>
+</header>
