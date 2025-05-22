@@ -182,22 +182,43 @@
      opacity="0.8"
      id="g16"
      transform="matrix(1.1072188,0,0,1.1072188,-3.1706722,-6.1140751)">
+    <!-- Left bracket with left movement animation -->
     <path
        d="m 74.603452,19.624108 v 32.913295 h 4.992054 q 0.734125,0 1.052247,0.269178 0.31812,0.293651 0.31812,0.758598 0,0.464946 -0.31812,0.734124 -0.318122,0.293651 -1.052247,0.293651 H 72.547901 V 17.544086 h 7.047605 q 0.734125,0 1.052247,0.293651 0.31812,0.293651 0.31812,0.758596 0,0.440474 -0.31812,0.734124 -0.318122,0.293651 -1.052247,0.293651 z"
        id="bracketl"
-       style="opacity:0.64;stroke-width:2.08818"
-       aria-label="[" />
+       style="opacity:0.8;stroke-width:2.08818"
+       aria-label="[">
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="0,0; -8,0; 0,0"
+         dur="3s"
+         repeatCount="indefinite" />
+      <animate
+         attributeName="opacity"
+         values="0.8;1;0.8"
+         dur="3s"
+         repeatCount="indefinite" />
+    </path>
+    
+    <!-- Right bracket with right movement animation -->
     <path
        d="M 327.88882,52.025035 V 20.135714 h -4.81305 q -0.71127,0 -1.01949,-0.284514 -0.30823,-0.284515 -0.30823,-0.711285 0,-0.450481 0.30823,-0.734995 0.30822,-0.284514 1.01949,-0.284514 h 6.82835 v 35.896229 h -6.82835 q -0.71127,0 -1.01949,-0.284514 -0.30823,-0.260805 -0.30823,-0.711285 0,-0.426773 0.30823,-0.711288 0.30822,-0.284513 1.01949,-0.284513 z"
        id="bracketr"
-       style="opacity:0.64;stroke-width:2.02321"
-       aria-label="]" />
-    <animateTransform
-       attributeName="transform"
-       type="scale"
-       values="1;1.1;1"
-       dur="3s"
-       repeatCount="indefinite" />
+       style="opacity:0.8;stroke-width:2.02321"
+       aria-label="]">
+      <animateTransform
+         attributeName="transform"
+         type="translate"
+         values="0,0; 8,0; 0,0"
+         dur="3s"
+         repeatCount="indefinite" />
+      <animate
+         attributeName="opacity"
+         values="0.8;1;0.8"
+         dur="3s"
+         repeatCount="indefinite" />
+    </path>
   </g>
   <!-- Corner decorative elements -->
   <g
