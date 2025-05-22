@@ -7,7 +7,7 @@ import {
 export function DraggableCardDemo() {
   const items = [
     {
-      title: "Tyler Durden",
+      title: "ට්‍රිප් පික්කෝ",
       image:
         "/images/event/trip.jpg",
       className: "absolute top-10 left-[20%] rotate-[-5deg]",
