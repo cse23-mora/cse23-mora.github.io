@@ -4,12 +4,8 @@ import { DraggableCardDemo } from "../components/DraggableCardDemo";
 import Header from "../components/Header.astro";
 ---
 
-
-<Header/>
+<Header />
 <!-- Gallery section -->
-            <div>
-                                    <DraggableCardDemo client:load />
-
-
-            </div>
-            
+<div>
+    <DraggableCardDemo client:only />
+</div>
