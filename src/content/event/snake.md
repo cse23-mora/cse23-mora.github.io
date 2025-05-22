@@ -33,7 +33,7 @@ Join us for **The CSE Hour**, a special session conducted by **Tharaka Jayasena*
 
 ## 📍 Event Details:
 - **Venue:** L2 Lab  
-- **Date & Time:** Today at **10:15 AM**  
+- **Date & Time:** 5/22/2025
 - **Conducted by:** Tharaka Jayasena
 
 ## 🙌 Special Thanks
