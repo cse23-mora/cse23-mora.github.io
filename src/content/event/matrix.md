@@ -49,5 +49,3 @@ Whether you’re into hardware, game dev, or just love cool tech experiments, th
 
 > *Let’s light it up, one pixel at a time.* 💡✨  
 > **#TheCSEHour** | **#LEDMatrixGaming** | **#CSEUoM**
-
-```

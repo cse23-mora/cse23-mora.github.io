@@ -28,10 +28,10 @@ const posts = (await getCollection("event")).sort(
           <h2
             class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white"
           >
-            Latest Events
+            Events
           </h2>
           <p class="mt-1 text-gray-600 dark:text-neutral-400">
-            Check out our latest contributions to the community.
+            Check out our contributions to the community.
           </p>
         </div>
         <!-- End Title -->
@@ -41,7 +41,7 @@ const posts = (await getCollection("event")).sort(
           {
             posts.map((post) => (
               <a
-                class="bg-white dark:bg-neutral-900 group flex flex-col h-full border border-gray-200 hover:-translate-y-1.5 hover:drop-shadow focus:drop-shadow duration-100 focus:outline-none focus:border-transparent rounded-xl dark:border-neutral-700 dark:hover:shadow-black/40 dark:focus:border-transparent dark:focus:shadow-black/40"
+                class="group flex flex-col h-full border border-gray-200 hover:scale-105 transition-transform duration-500 ease-in-out backdrop-blur-sm focus:outline-none focus:border-transparent rounded-xl dark:border-gray-800 dark:focus:border-transparent bg-indigo-400 dark:bg-indigo-700 dark:bg-opacity-10 bg-clip-padding backdrop-filter bg-opacity-10"
                 href={`/event/${post.id}/`}
               >
                 <div class="aspect-w-16 aspect-h-11">
