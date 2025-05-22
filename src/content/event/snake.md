@@ -34,7 +34,12 @@ Join us for **The CSE Hour**, a special session conducted by **Tharaka Jayasena*
 ## 📍 Event Details:
 - **Venue:** L2 Lab  
 - **Date & Time:** Today at **10:15 AM**  
-- **Conducted by:** Tharaka Jayasena  
+- **Conducted by:** Tharaka Jayasena
+
+## 🙌 Special Thanks
+
+A huge **thank you to CSE Batch '22** for their incredible work in building the  **31x31 LED matrix grid** — the foundation that made this entire project possible. Your contribution continues to inspire and enable innovation.
+
 
 ## 🌟 Why You Shouldn’t Miss It
 
