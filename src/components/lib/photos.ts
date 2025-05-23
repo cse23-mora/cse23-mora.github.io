@@ -47,12 +47,7 @@ const items = [
         "/images/gallery/pic7.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
-    {
-      title: "",
-      image:
-        "/images/gallery/pic8.webp",
-      className: "absolute top-8 left-[30%] rotate-[4deg]",
-    },
+    
     {
       title: "",
       image:
