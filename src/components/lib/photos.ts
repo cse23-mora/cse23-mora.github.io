@@ -8,55 +8,55 @@ const items = [
     {
       title: "්‍රිප් පික්කෝ",
       image:
-        "/images/gallery/pic1.jpg",
+        "/images/gallery/pic1.webp",
       className: "absolute top-40 left-[25%] rotate-[-7deg]",
     },
     {
       title: "Sakura Deco",
       image:
-        "/images/gallery/pic2.jpg",
+        "/images/gallery/pic2.webp",
       className: "absolute top-5 left-[40%] rotate-[8deg]",
     },
     {
       title: "Fun time",
       image:
-        "/images/gallery/pic3.jpg",
+        "/images/gallery/pic3.webp",
       className: "absolute top-32 left-[55%] rotate-[10deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic4.jpg",
+        "images/gallery/pic4.webp",
       className: "absolute top-20 right-[35%] rotate-[2deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic5.jpg",
+        "images/gallery/pic5.webp",
       className: "absolute top-24 left-[45%] rotate-[-7deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic6.jpg",
+        "images/gallery/pic6.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic7.jpg",
+        "images/gallery/pic7.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic8.jpg",
+        "images/gallery/pic8.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic9.jpg",
+        "images/gallery/pic9.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
   ];
