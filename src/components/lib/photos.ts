@@ -26,37 +26,37 @@ const items = [
     {
       title: "",
       image:
-        "images/gallery/pic4.webp",
+        "/images/gallery/pic4.webp",
       className: "absolute top-20 right-[35%] rotate-[2deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic5.webp",
+        "/images/gallery/pic5.webp",
       className: "absolute top-24 left-[45%] rotate-[-7deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic6.webp",
+        "/images/gallery/pic6.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic7.webp",
+        "/images/gallery/pic7.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic8.webp",
+        "/images/gallery/pic8.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
       title: "",
       image:
-        "images/gallery/pic9.webp",
+        "/images/gallery/pic9.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
   ];
