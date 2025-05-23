@@ -1,24 +1,24 @@
 const items = [
     {
-      title: "ට්‍රිප් පික්කෝ",
+      title: "",
       image:
         "/images/event/trip.jpg",
       className: "absolute top-10 left-[20%] rotate-[-5deg]",
     },
     {
-      title: "්‍රිප් පික්කෝ",
+      title: "",
       image:
         "/images/gallery/pic1.webp",
       className: "absolute top-40 left-[25%] rotate-[-7deg]",
     },
     {
-      title: "Sakura Deco",
+      title: "",
       image:
         "/images/gallery/pic2.webp",
       className: "absolute top-5 left-[40%] rotate-[8deg]",
     },
     {
-      title: "Fun time",
+      title: "",
       image:
         "/images/gallery/pic3.webp",
       className: "absolute top-32 left-[55%] rotate-[10deg]",
