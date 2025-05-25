@@ -62,11 +62,12 @@ export const DraggableCardBody = ({
     // Update constraints when component mounts or window resizes
     const updateConstraints = () => {
       if (typeof window !== "undefined") {
+        const multiplier = 1; // Increase this value to make the area larger
         setConstraints({
-          top: -window.innerHeight / 2,
-          left: -window.innerWidth / 2,
-          right: window.innerWidth / 2,
-          bottom: window.innerHeight / 2,
+          top: -window.innerHeight * multiplier,
+          left: -window.innerWidth * multiplier,
+          right: window.innerWidth * multiplier,
+          bottom: window.innerHeight * multiplier,
         });
       }
     };
