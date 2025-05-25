@@ -54,6 +54,13 @@ const items = [
         "/images/gallery/pic9.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
+     {
+      title: "",
+      image:
+        "/images/gallery/17.jpg",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+    },
+    
   ];
 
   export default items;
