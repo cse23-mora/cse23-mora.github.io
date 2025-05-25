@@ -87,6 +87,36 @@ const items = [
         "/images/gallery/pic13.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
+    {
+      title: "",
+      image:
+        "/images/gallery/pic14.webp",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+    },
+    {
+      title: "",
+      image:
+        "/images/gallery/pic15.webp",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+    },
+    {
+      title: "",
+      image:
+        "/images/gallery/pic16.webp",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+    },
+    {
+      title: "",
+      image:
+        "/images/gallery/pic18.webp",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+    },
+    {
+      title: "",
+      image:
+        "/images/gallery/pic19.webp",
+      className: "absolute top-8 left-[30%] rotate-[4deg]",
+    },
 
   ];
 
