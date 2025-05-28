@@ -1,0 +1,58 @@
+---
+import type { CollectionEntry } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import Matrix from "../components/Matrix.astro";
+
+type Props = CollectionEntry<"event">["data"];
+
+const { title, description, heroImage } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+
+  <body class="dark:bg-neutral-900 antialiased">
+    <Matrix/>
+    <Header />
+    <main>
+      <article
+        class=""
+      >
+        <!-- Blog Article -->
+        <div class="max-w-[85rem] w-full px-4 sm:px-6 lg:px-8 mx-auto">
+          <div class="">
+            <!-- Content -->
+            <div class="backdrop-blur-sm">
+              <div class="py-8 lg:pe-8">
+                <div class="space-y-5 lg:space-y-8">
+                  {
+                    heroImage && (
+                      <div class="rounded-3xl overflow-clip shadow-lg flex w-full">
+                        <img class="w-full h-auto" src={heroImage} alt="" />
+                      </div>
+                    )
+                  }
+
+                  <h2 class="text-3xl font-bold lg:text-5xl dark:text-white">
+                    {title}
+                  </h2>
+                  <div class="w-full prose-lg lg:prose-xl text-gray-800 dark:text-neutral-200">
+                    <slot />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Content -->
+          </div>
+        </div>
+        <!-- End Blog Article -->
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
