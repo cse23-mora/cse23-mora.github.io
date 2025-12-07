@@ -8,7 +8,7 @@ const items = [
     {
       title: "",
       image:
-        "/images/gallery/pic1.webp",
+        "/images/gallery/pic1.jpg",
       className: "absolute top-40 left-[25%] rotate-[-7deg]",
     },
     {
@@ -58,7 +58,7 @@ const items = [
      {
       title: "",
       image:
-        "/images/gallery/17.jpg",
+        "/images/gallery/pic17.webp",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     
@@ -102,7 +102,7 @@ const items = [
     {
       title: "",
       image:
-        "/images/gallery/pic16.webp",
+        "/images/gallery/pic16.jpeg",
       className: "absolute top-8 left-[30%] rotate-[4deg]",
     },
     {
