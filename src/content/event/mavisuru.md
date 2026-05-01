@@ -1,7 +1,7 @@
 ---
 title: 'Mavisuru Ragasoba — Drama Night'
 description: 'A day of creativity, culture, and unforgettable performances at the University of Moratuwa.'
-pubDate: '2Aug 28 025'
+pubDate: 'Aug 28 2025'
 heroImage: '/images/event/mavisuru.jpg'
 postTags: 'Event, Drama, Performance, UoM'
 ---
