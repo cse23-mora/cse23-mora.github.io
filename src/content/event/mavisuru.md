@@ -23,6 +23,20 @@ Audience members across faculties called it:
 
 From jaw-dropping scenes to unforgettable characters, *Titanic 2.0* showcased the creativity, unity, and talent that makes CSE23 truly special.
 
+## 🎬 Watch the Performance
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; margin: 1.5rem 0;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/erHZmiXINZE?si=SZRnI2i9m03jyBhl"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
 ---
 
 ## 🌟 Event Overview  
@@ -48,7 +62,7 @@ The event strengthened bonds among all engineering batches, fostering collaborat
 
 ## 🎉 Until Next Year…
 
-Mavisuru Ragasoba once again proved that engineering isn’t just about circuits and equations — it’s also about **art, passion, and expression**.
+Mavisuru Ragasoba once again proved that engineering isn't just about circuits and equations — it's also about **art, passion, and expression**.
 
 > *Here’s to creativity, unity, and more unforgettable performances to come.*  
 > **#MavisuruRagasoba** | **#CSE23** | **#Titanic2.0**
